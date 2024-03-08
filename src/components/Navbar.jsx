@@ -1,19 +1,30 @@
 import React from 'react'
-
+import logo from '../assets/image/logo.png'
 function Navbar() {
   return (
-    <div>
-        <div className="bg-teal-500 text-white drop-shadow-2xl flex items-center justify-between">
-            <div className="">
-                <a href="">
+   <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0">
+    <nav className="flex items-center justify-between">
+        <div className="">
+            <a href="" className="flex items-center space-x-2 ">
+                <img src={logo} alt="" className='inline-block items-center w-10 h-10' />
+                <span className="text-[#263238] font-bold text-2xl uppercase">
                     agency
-                </a>
+                </span>
+               
+            </a>
             </div>
-            <div className="">
-                <a href="">Home</a><a href="">About</a><a href="">Contact</a>
-            </div>
-        </div>
-    </div>
+            <div className="flex items-center justify-center space-x-6">
+                <a href="" className="text-gray-900 hover:text-brandPrimary text-base font-medium ">home</a>
+                <a href="" className="text-gray-900 hover:text-brandPrimary text-base font-medium ">services</a>
+                <a href="" className="text-gray-900 hover:text-brandPrimary text-base font-medium ">about</a>
+                <a href="" className="text-gray-900 hover:text-brandPrimary text-base font-medium ">product</a>
+                <a href="" className="text-gray-900 hover:text-brandPrimary text-base font-medium ">testimonial</a>
+                <a href="" className="text-gray-900 hover:text-brandPrimary text-base font-medium ">faq</a>
+
+
+                </div>
+    </nav>
+   </header>
   )
 }
 
