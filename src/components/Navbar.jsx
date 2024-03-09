@@ -55,10 +55,19 @@ function Navbar() {
                     sign up
                 </button>
             </div>
-            <button className="" onClick={toggleMenu}>
-                {menu?<CiMenuBurger className='text-brandPrimary text-3xl '/>:<LiaTimesSolid className='text-brandPrimary text-3xl '/>}
+            <button className="md:hidden" onClick={toggleMenu}>
+                {menu?<LiaTimesSolid className='text-brandPrimary text-3xl '/>:<CiMenuBurger className='text-brandPrimary text-3xl '/>}
             </button>
     </nav>
+    <div className={`${menu?'translate-x-0':'-translate-x-full'} duration-500 z-10 transition-transform md:hidden bg-brandPrimary  -translate-x-1/2 w-full  h-[300px] flex  gap-6 items-center justify-center py-3 px-10 flex-col`}>
+                <a href="" className="text-white capitalize hover:text-gray-600 duration-300 text-xl font-medium ">home</a>
+                <a href="" className="text-white capitalize hover:text-gray-600 duration-300 text-xl font-medium ">services</a>
+                <a href="" className="text-white capitalize hover:text-gray-600 duration-300 text-xl font-medium ">about</a>
+                <a href="" className="text-white capitalize hover:text-gray-600 duration-300 text-xl font-medium ">product</a> 
+                <a href="" className="text-white capitalize hover:text-gray-600 duration-300 text-xl font-medium ">product</a> 
+                <a href="" className="text-white capitalize hover:text-gray-600 duration-300 text-xl font-medium ">product</a> 
+
+    </div>
    </header>
   )
 }
