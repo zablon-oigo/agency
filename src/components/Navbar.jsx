@@ -1,6 +1,23 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import logo from '../assets/image/logo.png'
 function Navbar() {
+    const[isSticky, setisSticky]=useState(false)
+    
+    useEffect(()=>{
+        const handleScroll=()=>{
+            if(window.scrollY > 100){
+                setisSticky(true)
+            }
+            else{
+                setisSticky(false)
+            }
+        };
+        window.addEventListener('scroll', handleScroll)
+        return()=>{
+            window.addEventListener('scroll', handleScroll)
+
+        }
+    })
   return (
    <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0">
     <nav className="flex items-center justify-between px-10 py-6">
