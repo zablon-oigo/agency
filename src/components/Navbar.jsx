@@ -1,8 +1,15 @@
 import React,{useEffect,useState} from 'react'
 import logo from '../assets/image/logo.png'
+import { CiMenuBurger } from "react-icons/ci";
+import { LiaTimesSolid } from "react-icons/lia";
 function Navbar() {
     const[isSticky, setisSticky]=useState(false)
+    const[menu, setMenu]=useState(false)
     
+    const toggleMenu=()=>{
+        setMenu(!menu)
+    }
+
     useEffect(()=>{
         const handleScroll=()=>{
             if(window.scrollY > 100){
@@ -31,12 +38,12 @@ function Navbar() {
             </a>
             </div>
             <div className="hidden md:flex items-center justify-center space-x-6">
-                <a href="" className="text-gray-900 hover:text-brandPrimary text-base font-medium ">home</a>
-                <a href="" className="text-gray-900 hover:text-brandPrimary text-base font-medium ">services</a>
-                <a href="" className="text-gray-900 hover:text-brandPrimary text-base font-medium ">about</a>
-                <a href="" className="text-gray-900 hover:text-brandPrimary text-base font-medium ">product</a>
-                <a href="" className="text-gray-900 hover:text-brandPrimary text-base font-medium ">testimonial</a>
-                <a href="" className="text-gray-900 hover:text-brandPrimary text-base font-medium ">faq</a>
+                <a href="" className="text-gray-900 capitalize hover:text-brandPrimary text-base font-medium ">home</a>
+                <a href="" className="text-gray-900 capitalize hover:text-brandPrimary text-base font-medium ">services</a>
+                <a href="" className="text-gray-900 capitalize hover:text-brandPrimary text-base font-medium ">about</a>
+                <a href="" className="text-gray-900 capitalize hover:text-brandPrimary text-base font-medium ">product</a>
+                <a href="" className="text-gray-900 capitalize hover:text-brandPrimary text-base font-medium ">testimonial</a>
+                <a href="" className="text-gray-900 capitalize hover:text-brandPrimary text-base font-medium ">faq</a>
 
 
                 </div>
@@ -48,6 +55,9 @@ function Navbar() {
                     sign up
                 </button>
             </div>
+            <button className="" onClick={toggleMenu}>
+                {menu?<CiMenuBurger className='text-brandPrimary text-3xl '/>:<LiaTimesSolid className='text-brandPrimary text-3xl '/>}
+            </button>
     </nav>
    </header>
   )
