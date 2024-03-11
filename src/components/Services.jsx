@@ -11,6 +11,14 @@ function Services() {
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, eius ut. Labore sunt iure dolor praesentium!
             </p>
         </div>
+        <div className="my-20">
+          <div className="flex justify-center items-center">
+            <img src="" alt="" className="" />
+            <img src="" alt="" className="" />
+            <img src="" alt="" className="" />
+
+          </div>
+        </div>
     </div>
   )
 }
