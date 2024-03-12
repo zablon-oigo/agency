@@ -18,6 +18,14 @@ function Services() {
             <img src="" alt="" className="" />
 
           </div>
+          <div className="my-10 text-center">
+            <h2 className="first-letter:uppercase font-semibold text-3xl text-neutralDGray">
+              manage your entire community in a single system
+            </h2>
+            <p className="first-letter:uppercase text-base text-neutralGray">
+              we have been working with Fortune 500+ clients
+            </p>
+          </div>
         </div>
     </div>
   )
