@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Card from '../assets/Layout/Card'
 function Services() {
   return (
     <div className='md:px-14 px-4 py-16 max-w-screen-2xl min-h-[480px] mx-auto'>
@@ -25,6 +25,9 @@ function Services() {
             <p className="first-letter:uppercase text-base text-neutralGray">
               we have been working with Fortune 500+ clients
             </p>
+          </div>
+          <div className="my-14">
+            <Card/>
           </div>
         </div>
     </div>
