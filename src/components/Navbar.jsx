@@ -1,7 +1,8 @@
 import React,{useEffect,useState} from 'react'
-import logo from '../assets/image/logo.png'
+import logo from '../assets/image/icon.png'
 import { CiMenuBurger } from "react-icons/ci";
 import { LiaTimesSolid } from "react-icons/lia";
+import { Link } from 'react-scroll';
 function Navbar() {
     const[isSticky, setisSticky]=useState(false)
     const[menu, setMenu]=useState(false)
@@ -26,26 +27,24 @@ function Navbar() {
         }
     })
   return (
-   <header className="w-full bg-white md:bg-transparent fixed top-0 left-0 right-0">
+   <header className="w-full bg-white md:bg-transparent  top-0 left-0 right-0">
     <nav className="flex items-center justify-between px-10 py-6">
         <div className="">
-            <a href="" className="flex items-center space-x-2 ">
-                <img src={logo} alt="" className='inline-block items-center w-10 h-10' />
+            <Link to={'/'} smooth={true} spy={true} duration={500} className=" cursor-pointer flex items-center space-x-2 ">
+                <img src={logo} alt="" className='inline-block items-center w-6 h-6' />
                 <span className="text-[#263238] font-bold text-2xl uppercase">
-                    agency
+                    nextcent
                 </span>
                
-            </a>
+            </Link>
             </div>
             <div className="hidden md:flex items-center justify-center space-x-6">
-                <a href="" className="text-gray-900 capitalize hover:text-brandPrimary text-base font-medium ">home</a>
-                <a href="" className="text-gray-900 capitalize hover:text-brandPrimary text-base font-medium ">services</a>
-                <a href="" className="text-gray-900 capitalize hover:text-brandPrimary text-base font-medium ">about</a>
-                <a href="" className="text-gray-900 capitalize hover:text-brandPrimary text-base font-medium ">product</a>
-                <a href="" className="text-gray-900 capitalize hover:text-brandPrimary text-base font-medium ">testimonial</a>
-                <a href="" className="text-gray-900 capitalize hover:text-brandPrimary text-base font-medium ">faq</a>
-
-
+                <Link to={'home'} smooth={true} spy={true} duration={500} className="text-gray-900  cursor-pointer capitalize hover:text-brandPrimary text-base font-medium ">home</Link>
+                <Link to={'services'} smooth={true} spy={true} duration={500} className="text-gray-900  cursor-pointer capitalize hover:text-brandPrimary text-base font-medium ">services</Link>
+                <Link to={'about'} smooth={true} spy={true} duration={500} className="text-gray-900  cursor-pointer capitalize hover:text-brandPrimary text-base font-medium ">about</Link>
+                <Link to={'product'} smooth={true} spy={true} duration={500} className="text-gray-900  cursor-pointer capitalize hover:text-brandPrimary text-base font-medium ">product</Link>
+                <Link to={'testimonial'} smooth={true} spy={true} duration={500} className="text-gray-900  cursor-pointer capitalize hover:text-brandPrimary text-base font-medium ">testimonial</Link>
+                <Link to={'faq'} smooth={true} spy={true} duration={500} className="text-gray-900  cursor-pointer capitalize hover:text-brandPrimary text-base font-medium ">faq</Link>
                 </div>
             <div className="md:block hidden space-x-6">
                 <a href="" className="capitalize text-brandPrimary hover:text-gray-900">
@@ -60,12 +59,12 @@ function Navbar() {
             </button>
     </nav>
     <div className={`${menu?'translate-x-0':'-translate-x-full'} duration-500 z-10 transition-transform md:hidden bg-brandPrimary  -translate-x-1/2 w-full  h-[300px] flex  gap-6 items-center justify-center py-3 px-10 flex-col`}>
-                <a href="" className="text-white capitalize hover:text-gray-600 duration-300 text-xl font-medium ">home</a>
-                <a href="" className="text-white capitalize hover:text-gray-600 duration-300 text-xl font-medium ">services</a>
-                <a href="" className="text-white capitalize hover:text-gray-600 duration-300 text-xl font-medium ">about</a>
-                <a href="" className="text-white capitalize hover:text-gray-600 duration-300 text-xl font-medium ">product</a> 
-                <a href="" className="text-white capitalize hover:text-gray-600 duration-300 text-xl font-medium ">product</a> 
-                <a href="" className="text-white capitalize hover:text-gray-600 duration-300 text-xl font-medium ">product</a> 
+                <Link to={'home'} smooth={true} spy={true} duration={500} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">home</Link>
+                <Link to={'services'} smooth={true} spy={true} duration={500} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">services</Link>
+                <Link to={'about'} smooth={true} spy={true} duration={500} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">about</Link>
+                <Link to={'product'} smooth={true} spy={true} duration={500} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">product</Link> 
+                <Link to={'testimonial'} smooth={true} spy={true} duration={500} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">testimonial</Link> 
+                <Link to={'faq'} smooth={true} spy={true} duration={500} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">faq</Link> 
 
     </div>
    </header>
