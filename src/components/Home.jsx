@@ -8,9 +8,15 @@ function Home() {
   return (
     <>
     <Navbar/>
-    <Header/>
+       <div id="home">
+       <Header/>
+       </div>
+    <div id="services">
     <Services/>
+    </div>
+    <div id="about">
     <About/>
+    </div>
     <Footer/>
     </>
   )
