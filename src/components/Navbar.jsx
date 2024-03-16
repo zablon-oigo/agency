@@ -10,6 +10,9 @@ function Navbar() {
     const toggleMenu=()=>{
         setMenu(!menu)
     }
+    const closeMenu=()=>{
+        setMenu(false)
+    }
 
     useEffect(()=>{
         const handleScroll=()=>{
@@ -59,12 +62,12 @@ function Navbar() {
             </button>
     </nav>
     <div className={`${menu?'translate-x-0':'-translate-x-full'} duration-500 z-10 transition-transform md:hidden bg-brandPrimary  -translate-x-1/2 w-full  h-[300px] flex  gap-6 items-center justify-center py-3 px-10 flex-col`}>
-                <Link to={'home'} smooth={true} spy={true} duration={500} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">home</Link>
-                <Link to={'services'} smooth={true} spy={true} duration={500} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">services</Link>
-                <Link to={'about'} smooth={true} spy={true} duration={500} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">about</Link>
-                <Link to={'product'} smooth={true} spy={true} duration={500} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">product</Link> 
-                <Link to={'testimonial'} smooth={true} spy={true} duration={500} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">testimonial</Link> 
-                <Link to={'faq'} smooth={true} spy={true} duration={500} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">faq</Link> 
+                <Link to={'home'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">home</Link>
+                <Link to={'services'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">services</Link>
+                <Link to={'about'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">about</Link>
+                <Link to={'product'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">product</Link> 
+                <Link to={'testimonial'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">testimonial</Link> 
+                <Link to={'faq'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">faq</Link> 
 
     </div>
    </header>
