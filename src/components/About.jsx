@@ -2,7 +2,7 @@ import React from 'react'
 import about from '../assets/image/about.png'
 function About() {
   return (
-    <div className='min-h-[200px] bg-gray-100'>
+    <div className='min-h-[200px]'>
       <div className=" px-10 py-20 flex items-center md:flex-row flex-col justify-between">
         <div className="md:w-1/2 w-full">
           <img src={about} alt="" className="" />
