@@ -18,13 +18,25 @@ function Services() {
             </p>
         </div>
         <div className="my-10">
-          <div className="flex justify-between items-center">
+          <div className="flex items-center justify-between gap-3 ">
+            <div className="-mb-6">
             <img src={img1} alt="" className="w-12 h-12" />
+            </div>
+            <div className="">
             <img src={img2} alt="" className="w-12 h-12" />
+            </div>
+            <div className="">
             <img src={img3} alt="" className="w-12 h-12" />
+            </div>
+            <div className="">
             <img src={img4} alt="" className="w-12 h-12" />
+            </div>
+            <div className="">
             <img src={img5} alt="" className="w-12 h-12" />
+            </div>
+            <div className="">
             <img src={img6} alt="" className="w-12 h-12" />
+            </div>
           </div>
           <div className="my-10 text-center">
             <h2 className="first-letter:uppercase font-semibold text-3xl text-neutralDGray">
