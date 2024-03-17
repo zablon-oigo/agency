@@ -61,7 +61,7 @@ function Navbar() {
                 {menu?<LiaTimesSolid className='text-brandPrimary text-3xl '/>:<CiMenuBurger className='text-brandPrimary text-3xl '/>}
             </button>
     </nav>
-    <div className={`${menu?'translate-x-0':'-translate-x-full'} duration-500 z-10 transition-transform md:hidden bg-brandPrimary  -translate-x-1/2 w-full  h-[300px] flex  gap-6 items-center justify-center py-3 px-10 flex-col`}>
+    <div className={`${menu ? 'translate-x-0':'-translate-x-full'} duration-500 z-50 transition-transform md:hidden bg-brandPrimary  -translate-x-1/2 w-full  h-[300px] flex  gap-6 items-center justify-center py-3 px-10 flex-col`}>
                 <Link to={'home'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">home</Link>
                 <Link to={'services'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">services</Link>
                 <Link to={'about'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">about</Link>
