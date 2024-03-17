@@ -20,7 +20,7 @@ function Header() {
             <p className="text-neutralDGray md:text-base text-md mb-8 text-center md:text-start ">
               where to grow your business as a photographer:site or social media ?
             </p>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center md:justify-start">
             <button className="px-7 py-2 bg-brandPrimary text-white rounded hover:bg-neutralDGray transition-all duration-300 hover:-translate-y-4 ">
                 Register
               </button>
