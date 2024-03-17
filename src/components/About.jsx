@@ -8,7 +8,7 @@ function About() {
           <img src={about} alt="" className="" />
         </div>
         <div className="md:w-1/2 w-full">
-          <h2 className="text-center md:text-start first-letter:capitalize text-3xl mb-6 capitalize">
+          <h2 className="font-semibold text-center md:text-start first-letter:capitalize text-3xl mb-6 capitalize">
            the unseen of spending three years at Pixelgrade
           </h2>
           <p className="text-base text-center md:text-start text-neutralDGray first-letter:capitalize ">
