@@ -28,13 +28,13 @@ function Card() {
   return (
     <div className='grid md:grid-cols-3 grid-cols-1 gap-4 '>
       {items.map((item) => (
-        <div className="" key={item.id}>
+        <div className="bg-white shadow-2xl rounded-xl  px-10 py-10" key={item.id}>
           <div className="">
             <span className="">
               <img src={item.icon} alt="" className='mx-auto w-12 h-12' />
             </span>
           </div>
-          <h2 className="text-2xl font-semibold text-neutralDGray capitalize text-center">
+          <h2 className="mb-2 text-2xl font-semibold text-neutralDGray capitalize text-center">
             {item.title}
           </h2>
           <p className="text-md text-neutralGray  first-letter:capitalize text-center ">
