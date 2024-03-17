@@ -26,7 +26,7 @@ function Card() {
   ];
 
   return (
-    <div className='flex md:flex-row flex-col-reverse items-center justify-between gap-10'>
+    <div className='grid md:grid-cols-3 grid-cols-1 gap-4 '>
       {items.map((item) => (
         <div className="" key={item.id}>
           <div className="">
