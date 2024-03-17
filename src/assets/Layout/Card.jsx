@@ -7,21 +7,21 @@ function Card() {
   const items = [
     {
       id: 1,
-      title: 'lorem ipsum',
+      title: 'membership organization',
       icon: icon1,
-      description: 'lorem ipsum dolor sit amet'
+      description: 'our membership management software provides full automation of membership renewals amd payment'
     },
     {
       id: 2,
-      title: 'lorem ipsum',
+      title: 'national associations',
       icon: icon2,
-      description: 'lorem ipsum dolor sit amet'
+      description: 'our membership management software provides full automation of membership renewals amd payment'
     },
     {
       id: 3,
-      title: 'lorem ipsum',
+      title: 'clubs and groups',
       icon: icon3,
-      description: 'lorem ipsum dolor sit amet'
+      description: 'our membership management software provides full automation of membership renewals amd payment'
     }
   ];
 
@@ -31,13 +31,13 @@ function Card() {
         <div className="" key={item.id}>
           <div className="">
             <span className="">
-              <img src={item.icon} alt="" className='w-12 h-12' />
+              <img src={item.icon} alt="" className='mx-auto w-12 h-12' />
             </span>
           </div>
-          <h2 className="">
+          <h2 className="text-2xl font-semibold text-neutralDGray capitalize text-center">
             {item.title}
           </h2>
-          <p className="">
+          <p className="text-md text-neutralGray  first-letter:capitalize text-center ">
             {item.description}
           </p>
         </div>
