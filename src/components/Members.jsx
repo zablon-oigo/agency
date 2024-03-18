@@ -17,7 +17,7 @@ function Members() {
             </p>
           </h2>
         </div>
-        <div className="md:w-3/4 w-full  flex  gap-6 flex-row items-center justify-center">
+        <div className="md:w-3/4 w-full  grid grid-cols-2  gap-4">
           <div className=" flex flex-col items-center justify-between">
           <div className="flex items-center justify-center gap-6">
             <div className="">
@@ -38,13 +38,13 @@ function Members() {
             </div>
           </div>
           </div>
-          <div className=" flex flex-col items-center justify-between">
-          <div className="flex items-center justify-center gap-6">
+          <div className=" flex flex-col items-center justify-between gap-4">
+          <div className="flex item-center justify-center gap-6">
             <div className="">
             <img src={icon3} alt="" className="" />
             </div>
             <div className="">
-              <h2 className="text-2xl text-neutralDGray font-semibold">66,341</h2>
+              <h2 className="text-2xl text-neutralDGray font-semibold">1,667,341</h2>
               <p className="text-neutralGray text-base capitalize">clubs</p>
             </div>
           </div>
