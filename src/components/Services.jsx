@@ -46,7 +46,7 @@ function Services() {
               we have been working with Fortune 500+ clients
             </p>
           </div>
-          <div className="my-14">
+          <div className="md:mt-20 mt-10">
             <Card/>
           </div>
         </div>
