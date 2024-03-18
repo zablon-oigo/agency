@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import Header from './Header'
 import Services from './Services'
 import About from './About'
+import Members from './Members'
 import Footer from './Footer'
 function Home() {
   return (
@@ -16,6 +17,9 @@ function Home() {
     </div>
     <div id="about">
     <About/>
+    </div>
+    <div id="">
+      <Members/>
     </div>
     <Footer/>
     </>
