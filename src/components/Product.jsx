@@ -7,6 +7,7 @@ import icon3 from '../assets/image/product/icon3.png'
 import icon4 from '../assets/image/product/icon4.png'
 import icon5 from '../assets/image/product/icon5.png'
 import icon6 from '../assets/image/product/icon6.png'
+import { HiArrowLongRight } from "react-icons/hi2";
 
 function Product() {
   return (
@@ -44,17 +45,17 @@ function Product() {
                     </p>
                     <div className="flex justify-center items-center mt-6">
                        <div className="grid grid-cols-7 gap-4 place-content-center justify-items-center ">
-                       <img src={icon1} alt="" className="w-12 h-12" />
-                       <img src={icon2} alt="" className="w-12 h-12" />
-                       <img src={icon3} alt="" className="w-12 h-12" />
-                       <img src={icon4} alt="" className="w-12 h-12" />
-                       <img src={icon5} alt="" className="w-12 h-12" />
-                       <img src={icon6} alt="" className="w-12 h-12" />
+                       <img src={icon1} alt="" className="w-10 h-10 mt-2.5" />
+                       <img src={icon2} alt="" className="w-10 h-10" />
+                       <img src={icon3} alt="" className="w-10 h-10" />
+                       <img src={icon4} alt="" className="w-10 h-10" />
+                       <img src={icon5} alt="" className="w-10 h-10" />
+                       <img src={icon6} alt="" className="w-10 h-10" />
                        </div>
                        <div className="">
-                        <a href="" className="text-brandPrimary text-base capitalize">
+                        <a href="" className="gap-2 inline-flex items-center justify-center text-brandPrimary duration-300 hover:translate-x-2 transition-all hover:text-neutralDGray text-base capitalize">
                             meet all customers
-
+                            <HiArrowLongRight className='text-xl'/>
                         </a>
                        </div>
                     </div>
