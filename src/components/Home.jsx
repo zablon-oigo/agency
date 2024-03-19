@@ -5,6 +5,7 @@ import Services from './Services'
 import About from './About'
 import Members from './Members'
 import Footer from './Footer'
+import Product from './Product'
 function Home() {
   return (
     <>
@@ -20,6 +21,9 @@ function Home() {
     </div>
     <div id="">
       <Members/>
+    </div>
+    <div id="product">
+      <Product/>
     </div>
     <Footer/>
     </>
