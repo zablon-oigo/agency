@@ -11,7 +11,7 @@ function About() {
           <h2 className="font-semibold text-center md:text-start first-letter:capitalize text-3xl mb-6 capitalize">
            the unseen of spending three years at Pixelgrade
           </h2>
-          <p className="text-base text-center md:text-start text-neutralDGray first-letter:capitalize ">
+          <p className="text-base text-center md:text-start text-neutralDGray font-light first-letter:capitalize ">
            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore qui sed, voluptatem amet in sint ratione labore reprehenderit earum? Consectetur corporis expedita a? Odio debitis, nemo adipisci quo culpa eum, neque ex aliquid, minus id blanditiis enim. Molestias, quibusdam accusamus.
           </p>
           <div className="flex justify-center md:justify-start">
