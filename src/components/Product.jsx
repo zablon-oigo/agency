@@ -37,13 +37,13 @@ function Product() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iure, voluptates, et sit, aliquid voluptate aspernatur harum obcaecati corrupti modi dolorem consequatur accusamus quas repellendus tenetur quod fugiat quia totam quibusdam reiciendis quis deleniti excepturi repellat error! Unde ad maxime rem excepturi quos modi provident iure at accusamus. Fugit sapiente, quae obcaecati aliquam molestiae natus laborum commodi illum aliquid esse?
                 </p>
                 <div className=" ">
-                    <p className="capitalize  font-semibold mb-2 text-brandPrimary text-xl">
+                    <p className="capitalize text-center md:text-start   font-semibold mb-2 text-brandPrimary text-md md:text-xl">
                         tim smith
                     </p>
-                    <p className="capitalize text-sm font-light text-neutralGray">
+                    <p className="text-center md:text-start capitalize  text-xs md:text-sm font-light text-neutralGray">
                         british Dragon boat racing association
                     </p>
-                    <div className="flex justify-center items-center mt-6">
+                    <div className="flex justify-center md:flex-row flex-col items-center mt-6">
                        <div className="grid grid-cols-7 gap-4 place-content-center justify-items-center ">
                        <img src={icon1} alt="" className="w-10 h-10 mt-2.5" />
                        <img src={icon2} alt="" className="w-10 h-10" />
