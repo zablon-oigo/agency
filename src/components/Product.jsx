@@ -1,10 +1,11 @@
 import React from 'react'
 import product from '../assets/image/product.png'
+import product2 from '../assets/image/product2.png'
 function Product() {
   return (
     <div className='min-h-500x'>
         <div className="px-10 md:py-20 py-10">
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-4 place-content-center justify-items-center">
+            <div className="mb-20 grid md:grid-cols-2 grid-cols-1 gap-4 place-content-center justify-items-center">
             <div className="">
             <img src={product} alt="" />
             </div>
@@ -22,7 +23,21 @@ function Product() {
                 </div>
             </div>
             </div>
-            
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-4 place-content-center justify-items-center">
+            <div className="md:order-1 order-2 md:my-16 my-0">
+                <p className="md:text-base text-sm  text-center md:text-start font-light first-letter:capitalize text-neutralDGray mb-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iure, voluptates, et sit, aliquid voluptate aspernatur harum obcaecati corrupti modi dolorem consequatur accusamus quas repellendus tenetur quod fugiat quia totam quibusdam reiciendis quis deleniti excepturi repellat error! Unde ad maxime rem excepturi quos modi provident iure at accusamus. Fugit sapiente, quae obcaecati aliquam molestiae natus laborum commodi illum aliquid esse?
+                </p>
+                <div className=" flex md:justify-start justify-center">
+                    <a href="" className="text-brandPrimary">
+                        learn more...
+                    </a>
+                </div>
+            </div>
+            <div className="md:order-2 order-1">
+            <img src={product2} alt="" />
+            </div>
+            </div>
         </div>
 
     </div>
