@@ -30,44 +30,44 @@ function Navbar() {
         }
     })
   return (
-   <header className="w-full bg-white md:bg-transparent  top-0 left-0 right-0">
-    <nav className="flex items-center justify-between px-10 py-6">
+   <header className="relative top-0 left-0 right-0 w-full bg-white md:bg-transparent">
+    <nav className="flex items-center justify-between py-4 md:py-6 md:px-10">
         <div className="">
-            <Link to={'/'} smooth={true} spy={true} duration={500} className=" cursor-pointer flex items-center space-x-2 ">
-                <img src={logo} alt="" className='inline-block items-center w-6 h-6' />
+            <Link to={'/'} smooth={true} spy={true} duration={500} className="flex items-center space-x-2 cursor-pointer ">
+                <img src={logo} alt="" className='items-center inline-block w-6 h-6' />
                 <span className="text-[#263238] font-bold text-2xl uppercase">
                     nextcent
                 </span>
                
             </Link>
             </div>
-            <div className="hidden md:flex items-center justify-center space-x-6">
-                <Link to={'home'} smooth={true} spy={true} duration={500} className="text-gray-900  cursor-pointer capitalize hover:text-brandPrimary text-base font-medium ">home</Link>
-                <Link to={'services'} smooth={true} spy={true} duration={500} className="text-gray-900  cursor-pointer capitalize hover:text-brandPrimary text-base font-medium ">services</Link>
-                <Link to={'about'} smooth={true} spy={true} duration={500} className="text-gray-900  cursor-pointer capitalize hover:text-brandPrimary text-base font-medium ">about</Link>
-                <Link to={'product'} smooth={true} spy={true} duration={500} className="text-gray-900  cursor-pointer capitalize hover:text-brandPrimary text-base font-medium ">product</Link>
-                <Link to={'testimonial'} smooth={true} spy={true} duration={500} className="text-gray-900  cursor-pointer capitalize hover:text-brandPrimary text-base font-medium ">testimonial</Link>
-                <Link to={'faq'} smooth={true} spy={true} duration={500} className="text-gray-900  cursor-pointer capitalize hover:text-brandPrimary text-base font-medium ">faq</Link>
+            <div className="items-center justify-center hidden space-x-6 md:flex">
+                <Link to={'home'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize cursor-pointer hover:text-brandPrimary ">home</Link>
+                <Link to={'services'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize cursor-pointer hover:text-brandPrimary ">services</Link>
+                <Link to={'about'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize cursor-pointer hover:text-brandPrimary ">about</Link>
+                <Link to={'product'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize cursor-pointer hover:text-brandPrimary ">product</Link>
+                <Link to={'testimonial'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize cursor-pointer hover:text-brandPrimary ">testimonial</Link>
+                <Link to={'faq'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize cursor-pointer hover:text-brandPrimary ">faq</Link>
                 </div>
-            <div className="md:block hidden space-x-6">
+            <div className="hidden space-x-6 md:block">
                 <a href="" className="capitalize text-brandPrimary hover:text-gray-900">
                     login
                 </a>
-                <button className="bg-brandPrimary text-white py-2 px-4 transition-all duration-300 rounded hover:bg-neutralDGray">
+                <button className="px-4 py-2 text-white transition-all duration-300 rounded bg-brandPrimary hover:bg-neutralDGray">
                     sign up
                 </button>
             </div>
             <button className="md:hidden" onClick={toggleMenu}>
-                {menu?<LiaTimesSolid className='text-brandPrimary text-3xl '/>:<CiMenuBurger className='text-brandPrimary text-3xl '/>}
+                {menu?<LiaTimesSolid className='text-3xl text-brandPrimary '/>:<CiMenuBurger className='text-3xl text-brandPrimary '/>}
             </button>
     </nav>
-    <div className={`${menu ? 'translate-x-0':'-translate-x-full'} duration-500 z-50 transition-transform md:hidden bg-brandPrimary  -translate-x-1/2 w-full  h-[300px] flex  gap-6 items-center justify-center py-3 px-10 flex-col`}>
-                <Link to={'home'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">home</Link>
-                <Link to={'services'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">services</Link>
-                <Link to={'about'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">about</Link>
-                <Link to={'product'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">product</Link> 
-                <Link to={'testimonial'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">testimonial</Link> 
-                <Link to={'faq'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-white cursor-pointer capitalize hover:text-gray-600 duration-300 text-xl font-medium ">faq</Link> 
+    <div className={`${menu ? 'translate-x-0':'-translate-x-full'} duration-500 z-10 transition-transform md:hidden bg-brandPrimary  -translate-x-1/2 w-full  h-[300px] flex  gap-6 items-start justify-center py-4 px-3 flex-col`}>
+                <Link to={'home'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-xl font-medium text-white capitalize duration-300 cursor-pointer hover:text-gray-600 ">home</Link>
+                <Link to={'services'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-xl font-medium text-white capitalize duration-300 cursor-pointer hover:text-gray-600 ">services</Link>
+                <Link to={'about'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-xl font-medium text-white capitalize duration-300 cursor-pointer hover:text-gray-600 ">about</Link>
+                <Link to={'product'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-xl font-medium text-white capitalize duration-300 cursor-pointer hover:text-gray-600 ">product</Link> 
+                <Link to={'testimonial'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-xl font-medium text-white capitalize duration-300 cursor-pointer hover:text-gray-600 ">testimonial</Link> 
+                <Link to={'faq'} smooth={true} spy={true} duration={500} onClick={closeMenu} className="text-xl font-medium text-white capitalize duration-300 cursor-pointer hover:text-gray-600 ">faq</Link> 
 
     </div>
    </header>
