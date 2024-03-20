@@ -28,16 +28,16 @@ function Card() {
   return (
     <div className='grid grid-cols-1 gap-4 md:grid-cols-3 '>
       {items.map((item) => (
-        <div className="px-10 py-10 transition-all duration-300 bg-white shadow-2xl rounded-xl hover:-translate-y-2 hover:border-b-8 hover:border-brandPrimary" key={item.id}>
+        <div className="px-10 py-10 transition-all duration-300 bg-white shadow-2xl group rounded-xl hover:-translate-y-2 hover:border-b-8 hover:border-brandPrimary" key={item.id}>
           <div className="">
             <span className="">
-              <img src={item.icon} alt="" className='w-12 h-12 mx-auto' />
+              <img src={item.icon} alt="" className='w-12 h-12 mx-auto group-hover:bg-[#A5D6A7] rounded-full ' />
             </span>
           </div>
-          <h2 className="mb-2 text-xl font-semibold text-center capitalize text-neutralDGray">
+          <h2 className="mb-2 text-xl font-semibold text-center capitalize duration-300 group-hover:text-brandPrimary text-neutralDGray">
             {item.title}
           </h2>
-          <p className="text-center text-md text-neutralGray first-letter:capitalize ">
+          <p className="text-center text-md text-neutralGray first-letter:capitalize group-hover:text-neutralDGray ">
             {item.description}
           </p>
         </div>
