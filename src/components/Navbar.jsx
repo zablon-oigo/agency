@@ -31,7 +31,7 @@ function Navbar() {
     })
   return (
    <header className="relative top-0 left-0 right-0 w-full bg-white md:bg-transparent">
-    <nav className="flex items-center justify-between py-4 md:py-6 md:px-10">
+    <nav className="flex items-center justify-between px-3 py-4 md:py-6 md:px-10">
         <div className="">
             <Link to={'/'} smooth={true} spy={true} duration={500} className="flex items-center space-x-2 cursor-pointer ">
                 <img src={logo} alt="" className='items-center inline-block w-6 h-6' />
