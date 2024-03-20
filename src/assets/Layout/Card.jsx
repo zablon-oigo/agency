@@ -26,18 +26,18 @@ function Card() {
   ];
 
   return (
-    <div className='grid md:grid-cols-3 grid-cols-1 gap-4 '>
+    <div className='grid grid-cols-1 gap-4 md:grid-cols-3 '>
       {items.map((item) => (
-        <div className="bg-white shadow-2xl rounded-xl  px-10 py-10" key={item.id}>
+        <div className="px-10 py-10 transition-all duration-300 bg-white shadow-2xl rounded-xl hover:-translate-y-2 hover:border-b-8 hover:border-brandPrimary" key={item.id}>
           <div className="">
             <span className="">
-              <img src={item.icon} alt="" className='mx-auto w-12 h-12' />
+              <img src={item.icon} alt="" className='w-12 h-12 mx-auto' />
             </span>
           </div>
-          <h2 className="mb-2 text-2xl font-semibold text-neutralDGray capitalize text-center">
+          <h2 className="mb-2 text-xl font-semibold text-center capitalize text-neutralDGray">
             {item.title}
           </h2>
-          <p className="text-md text-neutralGray  first-letter:capitalize text-center ">
+          <p className="text-center text-md text-neutralGray first-letter:capitalize ">
             {item.description}
           </p>
         </div>
