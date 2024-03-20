@@ -34,10 +34,10 @@ function Card() {
               <img src={item.icon} alt="" className='w-12 h-12 mx-auto group-hover:bg-[#A5D6A7] rounded-full ' />
             </span>
           </div>
-          <h2 className="mb-2 text-xl font-semibold text-center capitalize duration-300 group-hover:text-brandPrimary text-neutralDGray">
+          <h2 className="mb-2 font-semibold text-center capitalize duration-300 text-md md:text-xl group-hover:text-brandPrimary text-neutralDGray">
             {item.title}
           </h2>
-          <p className="text-center text-md text-neutralGray first-letter:capitalize group-hover:text-neutralDGray ">
+          <p className="text-sm text-center md:text-md text-neutralGray first-letter:capitalize group-hover:text-neutralDGray ">
             {item.description}
           </p>
         </div>
