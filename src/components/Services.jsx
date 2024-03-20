@@ -9,8 +9,8 @@ import img6 from '../assets/image/services/img6.png'
 function Services() {
   return (
     <div className='md:px-14 px-4 py-16 max-w-screen-2xl min-h-[480px] mx-auto'>
-        <div className="text-center my-8">
-            <h1 className="text-4xl text-neutralDGray font-semibold mb-2 capitalize">
+        <div className="my-8 text-center">
+            <h1 className="mb-2 text-4xl font-semibold capitalize text-neutralDGray">
                 our clients
             </h1>
             <p className="text-neutralGray">
@@ -20,33 +20,33 @@ function Services() {
         <div className="my-10">
           <div className="flex items-center justify-between gap-3 ">
             <div className="-mb-6">
-            <img src={img1} alt="" className="w-12 h-12" />
+            <img src={img1} alt="" className="w-12 h-12 transition-all duration-300 hover:scale-125" />
             </div>
             <div className="">
-            <img src={img2} alt="" className="w-12 h-12" />
+            <img src={img2} alt="" className="w-12 h-12 transition-all duration-300 hover:scale-125" />
             </div>
             <div className="">
-            <img src={img3} alt="" className="w-12 h-12" />
+            <img src={img3} alt="" className="w-12 h-12 transition-all duration-300 hover:scale-125" />
             </div>
             <div className="">
-            <img src={img4} alt="" className="w-12 h-12" />
+            <img src={img4} alt="" className="w-12 h-12 transition-all duration-300 hover:scale-125" />
             </div>
             <div className="">
-            <img src={img5} alt="" className="w-12 h-12" />
+            <img src={img5} alt="" className="w-12 h-12 transition-all duration-300 hover:scale-125" />
             </div>
             <div className="">
-            <img src={img6} alt="" className="w-12 h-12" />
+            <img src={img6} alt="" className="w-12 h-12 transition-all duration-300 hover:scale-125" />
             </div>
           </div>
           <div className="my-10 text-center">
-            <h2 className="first-letter:uppercase font-semibold text-3xl text-neutralDGray">
+            <h2 className="text-3xl font-semibold first-letter:uppercase text-neutralDGray">
               manage your entire community in a single system
             </h2>
-            <p className="first-letter:uppercase text-base text-neutralGray">
+            <p className="text-base first-letter:uppercase text-neutralGray">
               we have been working with Fortune 500+ clients
             </p>
           </div>
-          <div className="md:mt-20 mt-10">
+          <div className="mt-10 md:mt-20">
             <Card/>
           </div>
         </div>
