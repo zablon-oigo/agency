@@ -39,7 +39,7 @@ function Services() {
             </div>
           </div>
           <div className="my-10 text-center">
-            <h2 className="text-3xl font-semibold first-letter:uppercase text-neutralDGray">
+            <h2 className="text-lg font-semibold md:text-3xl first-letter:uppercase text-neutralDGray">
               manage your entire community in a single system
             </h2>
             <p className="text-base first-letter:uppercase text-neutralGray">
