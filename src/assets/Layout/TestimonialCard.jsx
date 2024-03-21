@@ -22,7 +22,7 @@ function TestimonialCard() {
     <div className="grid grid-cols-1 gap-3 md:grid-cols-3 place-content-center justify-items-center">
           {card.map((item)=>(
             <div className="" key={item.id}>
-                <img src={item.image} alt="" className="" />
+                <img src={item.image} alt="" className="object-cover h-64 rounded w-96" />
             </div>
           ))}
     </div>
