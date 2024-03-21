@@ -6,6 +6,7 @@ import About from './About'
 import Members from './Members'
 import Footer from './Footer'
 import Product from './Product'
+import Testimonial from './Testimonial'
 function Home() {
   return (
     <>
@@ -24,6 +25,9 @@ function Home() {
     </div>
     <div id="product">
       <Product/>
+    </div>
+    <div id="testimonial">
+      <Testimonial/>
     </div>
     <Footer/>
     </>
