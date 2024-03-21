@@ -28,12 +28,12 @@ function TestimonialCard() {
             <div className="relative" key={item.id}>
                 <img src={item.image} alt="" className="object-cover h-64 rounded w-96" />
                 
-                <div className="absolute w-3/4 px-4 py-6 mx-10 bg-gray-200 rounded-lg shadow-2xl -bottom-6 ">
-                  <p className="text-md text-neutral-700 first-letter:capitalize">
+                <div className="absolute w-3/4 px-4 py-6 mx-10 bg-gray-200 rounded-lg shadow-2xl bottom-2 md:-bottom-10 ">
+                  <p className="text-center text-md text-neutral-700 first-letter:capitalize">
                     {item.description}
                     
                   </p>
-                  <a href="" className="inline-flex items-center justify-between gap-2 text-sm transition-all duration-300 hover:translate-x-2 hover:text-neutralDGray text-brandPrimary ">
+                  <a href="" className="inline-flex items-center justify-center gap-2 mx-auto mt-2 capitalize transition-all duration-300 text-md hover:translate-x-2 hover:text-neutralDGray text-brandPrimary">
                       readmore
                       <HiArrowLongRight className='text-xl'/>
                     </a>
