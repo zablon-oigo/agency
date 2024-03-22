@@ -7,6 +7,7 @@ import Members from './Members'
 import Footer from './Footer'
 import Product from './Product'
 import Testimonial from './Testimonial'
+import Faq from './Faq'
 function Home() {
   return (
     <>
@@ -28,6 +29,9 @@ function Home() {
     </div>
     <div id="testimonial">
       <Testimonial/>
+    </div>
+    <div id="faq">
+      <Faq/>
     </div>
     <Footer/>
     </>
