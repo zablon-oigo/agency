@@ -44,9 +44,16 @@ function Footer() {
              </div>
              </div>
              <div className="">
-              <h2 className="text-xl capitalize font-semibold  text-[#FFF5EE]">
+              <h2 className="text-2xl capitalize font-semibold mb-6  text-[#FFF5EE]">
                 support
               </h2>
+              <div className="flex flex-col justify-center gap-y-2">
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">help center</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">terms of service</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">legal</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">privacy policy</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">status</a>
+             </div>
              </div>
              <div className="">
               <h2 className="text-xl capitalize font-semibold  text-[#FFF5EE]">
