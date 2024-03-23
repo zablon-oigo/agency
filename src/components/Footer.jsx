@@ -56,7 +56,7 @@ function Footer() {
              </div>
              </div>
              <div className="">
-              <h2 className="text-xl capitalize font-semibold  text-[#FFF5EE]">
+              <h2 className="mb-6 text-2xl capitalize font-semibold  text-[#FFF5EE]">
                 stay up to date
               </h2>
               <div className="">
