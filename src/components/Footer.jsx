@@ -17,13 +17,13 @@ function Footer() {
                         nextcent
                     </span>
                 </Link>
-                <div className="">
-                  <h2 className="text-base capitalize font-light  text-[#FFF5EE] mt-2">copyright &copy; {new Date().getFullYear()}</h2>
+                <div className="mx-4">
+                  <h2 className="text-sm capitalize font-light  text-[#FFF5EE] mt-2">copyright &copy; {new Date().getFullYear()}</h2>
                   <p className="text-sm text-[#FFF5EE] capitalize font-light mt-2">
                     all rights reserved
                   </p>
                 </div>
-                <div className="flex items-center gap-4 my-6">
+                <div className="flex items-center gap-4 mx-4 my-6">
                 <SlSocialInstagram className='text-[#E2DFD2] text-3xl'/>
                 <TfiTwitterAlt className='text-[#E2DFD2] text-3xl '/>
                 <GrYoutube className='text-[#E2DFD2] text-3xl '/>
@@ -32,9 +32,16 @@ function Footer() {
         </div>
         <div className="flex justify-around w-full md:w-3/4">
              <div className="">
-             <h2 className="text-xl capitalize font-semibold  text-[#FFF5EE]">
+             <h2 className="text-2xl capitalize font-semibold mb-6  text-[#FFF5EE]">
               company
              </h2>
+             <div className="flex flex-col justify-center gap-y-2">
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">about us</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">blog</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">contact us</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">pricing</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">testimonials</a>
+             </div>
              </div>
              <div className="">
               <h2 className="text-xl capitalize font-semibold  text-[#FFF5EE]">
