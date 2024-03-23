@@ -36,11 +36,11 @@ function Footer() {
               company
              </h2>
              <div className="flex flex-col justify-center gap-y-2">
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">about us</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">blog</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">contact us</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">pricing</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">testimonials</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">about us</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">blog</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">contact us</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">pricing</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">testimonials</a>
              </div>
              </div>
              <div className="">
@@ -48,11 +48,11 @@ function Footer() {
                 support
               </h2>
               <div className="flex flex-col justify-center gap-y-2">
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">help center</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">terms of service</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">legal</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">privacy policy</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize">status</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">help center</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">terms of service</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">legal</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">privacy policy</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">status</a>
              </div>
              </div>
              <div className="">
