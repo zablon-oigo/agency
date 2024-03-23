@@ -30,7 +30,7 @@ function Footer() {
                 <TbWorld className='text-[#E2DFD2] text-3xl '/>
                 </div>
         </div>
-        <div className="flex justify-around w-full md:w-3/4">
+        <div className="flex flex-col justify-around w-full gap-y-4 md:flex-row md:w-3/4">
              <div className="">
              <h2 className="text-2xl capitalize font-semibold mb-6  text-[#FFF5EE]">
               company
