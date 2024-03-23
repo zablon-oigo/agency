@@ -56,11 +56,11 @@ function Footer() {
              </div>
              </div>
              <div className="">
-              <h2 className="mb-6 text-2xl capitalize font-semibold  text-[#FFF5EE]">
+              <h2 className="mb-6 text-2xl first-letter:capitalize font-semibold  text-[#FFF5EE]">
                 stay up to date
               </h2>
               <div className="">
-                <input type="text" className="" />
+                <input type="text" className="px-4 py-2 border-none rounded" placeholder='your email address' />
               </div>
              </div>
         </div>
