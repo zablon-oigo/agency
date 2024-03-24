@@ -42,12 +42,12 @@ function Navbar() {
             </Link>
             </div>
             <div className="items-center justify-center hidden space-x-6 md:flex">
-                <Link to={'home'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize cursor-pointer hover:text-brandPrimary ">home</Link>
-                <Link to={'services'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize cursor-pointer hover:text-brandPrimary ">services</Link>
-                <Link to={'about'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize cursor-pointer hover:text-brandPrimary ">about</Link>
-                <Link to={'product'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize cursor-pointer hover:text-brandPrimary ">product</Link>
-                <Link to={'testimonial'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize cursor-pointer hover:text-brandPrimary ">testimonial</Link>
-                <Link to={'faq'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize cursor-pointer hover:text-brandPrimary ">faq</Link>
+                <Link to={'home'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize duration-300 cursor-pointer hover:text-brandPrimary ">home</Link>
+                <Link to={'services'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize duration-300 cursor-pointer hover:text-brandPrimary ">services</Link>
+                <Link to={'about'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize duration-300 cursor-pointer hover:text-brandPrimary ">about</Link>
+                <Link to={'product'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize duration-300 cursor-pointer hover:text-brandPrimary ">product</Link>
+                <Link to={'testimonial'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize duration-300 cursor-pointer hover:text-brandPrimary ">testimonial</Link>
+                <Link to={'faq'} smooth={true} spy={true} duration={500} className="text-base font-medium text-gray-900 capitalize duration-300 cursor-pointer hover:text-brandPrimary ">faq</Link>
                 </div>
             <div className="hidden space-x-6 md:block">
                 <a href="" className="capitalize text-brandPrimary hover:text-gray-900">
