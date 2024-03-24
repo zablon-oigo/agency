@@ -29,7 +29,7 @@ function TestimonialCard() {
                 <img src={item.image} alt="" className="object-cover h-64 rounded shadow-2xl w-96" />
                 
                 <div className="absolute w-3/4 px-3 py-6 mx-10 bg-gray-100 rounded-lg shadow-2xl bottom-2 md:-bottom-10 ">
-                  <p className="text-sm text-center text-neutral-700 first-letter:capitalize">
+                  <p className="text-xs text-center md:text-sm text-neutral-700 first-letter:capitalize">
                     {item.description}
                     
                   </p>
