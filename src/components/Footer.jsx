@@ -36,11 +36,11 @@ function Footer() {
               company
              </h2>
              <div className="flex flex-col justify-center gap-y-2">
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">about us</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">blog</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">contact us</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">pricing</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">testimonials</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD]">about us</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD]">blog</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD]">contact us</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD]">pricing</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD]">testimonials</a>
              </div>
              </div>
              <div className="">
