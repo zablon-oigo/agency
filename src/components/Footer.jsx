@@ -62,7 +62,7 @@ function Footer() {
               </h2>
               <div className="relative">
                 <input type="text" className=" px-4 py-2 border-none rounded focus:outline-none focus:ring-1 focus:ring-brandPrimary placeholder-[#668869]" placeholder='your email address' />
-                <button type="submit" className="absolute md:right-1   right-[28%] top-[14%]">
+                <button type="submit" className="absolute md:right-1   right-8 top-[14%]">
                   <img src={send} alt="" className="w-8 h-8" />
                 </button>
               </div>
