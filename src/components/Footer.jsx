@@ -48,11 +48,11 @@ function Footer() {
                 support
               </h2>
               <div className="flex flex-col justify-center gap-y-2">
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">help center</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">terms of service</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">legal</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">privacy policy</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light">status</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD] duration-300 transition-all hover:translate-x-2">help center</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD] duration-300 transition-all hover:translate-x-2">terms of service</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD] duration-300 transition-all hover:translate-x-2">legal</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD] duration-300 transition-all hover:translate-x-2">privacy policy</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD] duration-300 transition-all hover:translate-x-2">status</a>
              </div>
              </div>
              <div className="">
