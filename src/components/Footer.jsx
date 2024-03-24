@@ -17,13 +17,13 @@ function Footer() {
                         nextcent
                     </span>
                 </Link>
-                <div className="mx-4">
+                <div className="mx-0 md:mx-4">
                   <h2 className="text-sm capitalize font-light  text-[#FFF5EE] mt-2">copyright &copy; {new Date().getFullYear()}</h2>
                   <p className="text-sm text-[#FFF5EE] capitalize font-light mt-2">
                     all rights reserved
                   </p>
                 </div>
-                <div className="flex items-center gap-4 mx-4 my-6">
+                <div className="flex items-center gap-4 mx-0 my-6 md:mx-4">
                 <SlSocialInstagram className='text-[#E2DFD2] text-3xl'/>
                 <TfiTwitterAlt className='text-[#E2DFD2] text-3xl '/>
                 <GrYoutube className='text-[#E2DFD2] text-3xl '/>
