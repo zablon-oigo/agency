@@ -4,10 +4,10 @@ import head1 from '../assets/image/head1.png'
 import head2 from '../assets/image/about.png'
 function Header() {
   return (
-    <div className='bg-neutralSilver'>
-        <div className="px-4 mx-auto  md:px-14 max-w-screen-2xl">
+    <div className='min-h-screen bg-neutralSilver'>
+        <div className="px-4 mx-auto md:px-14 max-w-screen-2xl">
         
-      <Carousel className='w-full mx-auto md:my-0 '>
+      <Carousel className='w-full mx-auto md:my-0'>
         <div className="flex flex-col items-center justify-between gap-12 md:flex-row-reverse">
           <div className="">
           <img src={head1} alt="" className="" />
