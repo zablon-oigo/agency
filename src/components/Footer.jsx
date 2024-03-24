@@ -60,7 +60,7 @@ function Footer() {
                 stay up to date
               </h2>
               <div className="">
-                <input type="text" className="px-4 py-2 border-none rounded" placeholder='your email address' />
+                <input type="text" className="px-4 py-2 border-none rounded focus:outline-none focus:ring-1 focus:ring-brandPrimary placeholder-[#668869]" placeholder='your email address' />
               </div>
              </div>
         </div>
