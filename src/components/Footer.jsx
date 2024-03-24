@@ -24,10 +24,10 @@ function Footer() {
                   </p>
                 </div>
                 <div className="flex items-center gap-4 mx-0 my-6 md:mx-4">
-                <SlSocialInstagram className='text-[#E2DFD2] text-3xl'/>
-                <TfiTwitterAlt className='text-[#E2DFD2] text-3xl '/>
-                <GrYoutube className='text-[#E2DFD2] text-3xl '/>
-                <TbWorld className='text-[#E2DFD2] text-3xl '/>
+                <SlSocialInstagram className='text-[#E2DFD2] text-3xl hover:scale-125 hover:rotate-6'/>
+                <TfiTwitterAlt className='text-[#E2DFD2] text-3xl hover:scale-125 hover:rotate-6 '/>
+                <GrYoutube className='text-[#E2DFD2] text-3xl hover:scale-125 hover:rotate-6 '/>
+                <TbWorld className='text-[#E2DFD2] text-3xl hover:scale-125 hover:rotate-6 '/>
                 </div>
         </div>
         <div className="flex flex-col justify-around w-full gap-y-4 md:flex-row md:w-3/4">
