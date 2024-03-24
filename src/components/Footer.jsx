@@ -36,11 +36,11 @@ function Footer() {
               company
              </h2>
              <div className="flex flex-col justify-center gap-y-2">
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD]">about us</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD]">blog</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD]">contact us</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD]">pricing</a>
-              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD]">testimonials</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD] duration-300 transition-all hover:translate-x-2">about us</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD] duration-300 transition-all hover:translate-x-2">blog</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD] duration-300 transition-all hover:translate-x-2">contact us</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD] duration-300 transition-all hover:translate-x-2">pricing</a>
+              <a href="" className="text-lg text-[#FFF5EE] first-letter:capitalize font-light hover:text-[#FFDEAD] duration-300 transition-all hover:translate-x-2">testimonials</a>
              </div>
              </div>
              <div className="">
