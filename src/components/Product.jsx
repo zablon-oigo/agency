@@ -37,7 +37,8 @@ function Product() {
                 </div>
             </div>
             </div>
-            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 place-content-center justify-items-center">
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-2 place-content-center justify-items-center"
+            data-aos="fade-right" data-aos-duration="3000" data-easing="ease-in-sine">
             <div className="order-2 md:order-1 ">
                 <p className="mb-4 text-sm font-light text-center md:text-base md:text-start first-letter:capitalize text-neutralGray">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iure, voluptates, et sit, aliquid voluptate aspernatur harum obcaecati corrupti modi dolorem consequatur accusamus quas repellendus tenetur quod fugiat quia totam quibusdam reiciendis quis deleniti excepturi repellat error! Unde ad maxime rem excepturi quos modi provident iure at accusamus. Fugit sapiente, quae obcaecati aliquam molestiae natus laborum commodi illum aliquid esse?
