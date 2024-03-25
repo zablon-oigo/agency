@@ -1,4 +1,6 @@
-import React from 'react'
+import {useEffect,React} from 'react'
+import AOS, { init } from 'aos';
+import 'aos/dist/aos.css';
 import product from '../assets/image/product.png'
 import product2 from '../assets/image/product2.png'
 import icon1 from '../assets/image/product/icon1.png'
@@ -10,10 +12,14 @@ import icon6 from '../assets/image/product/icon6.png'
 import { HiArrowLongRight } from "react-icons/hi2";
 
 function Product() {
+    useEffect(()=>{
+        AOS.init()
+    },[])
   return (
     <div className='min-h-500x'>
         <div className="px-10 py-10 md:py-20">
-            <div className="grid grid-cols-1 gap-4 mb-20 md:grid-cols-2 place-content-center justify-items-center">
+            <div className="grid grid-cols-1 gap-4 mb-20 md:grid-cols-2 place-content-center justify-items-center"
+            data-aos="fade-left" data-aos-duration="3000" data-easing="ease-in-sine">
             <div className="">
             <img src={product} alt="" />
             </div>
