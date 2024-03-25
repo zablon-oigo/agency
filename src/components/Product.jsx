@@ -52,12 +52,12 @@ function Product() {
                     </p>
                     <div className="flex flex-col items-center justify-center mt-6 md:flex-row">
                        <div className="grid grid-cols-7 gap-4 place-content-center justify-items-center ">
-                       <img src={icon1} alt="" className="w-10 h-10 mt-2.5" />
-                       <img src={icon2} alt="" className="w-10 h-10" />
-                       <img src={icon3} alt="" className="w-10 h-10" />
-                       <img src={icon4} alt="" className="w-10 h-10" />
-                       <img src={icon5} alt="" className="w-10 h-10" />
-                       <img src={icon6} alt="" className="w-10 h-10" />
+                       <img src={icon1} alt="" className="w-10 h-10 hover:scale-125 duration-300 mt-2.5" />
+                       <img src={icon2} alt="" className="w-10 h-10 duration-300 hover:scale-125" />
+                       <img src={icon3} alt="" className="w-10 h-10 duration-300 hover:scale-125" />
+                       <img src={icon4} alt="" className="w-10 h-10 duration-300 hover:scale-125" />
+                       <img src={icon5} alt="" className="w-10 h-10 duration-300 hover:scale-125" />
+                       <img src={icon6} alt="" className="w-10 h-10 duration-300 hover:scale-125" />
                        </div>
                        <div className="">
                         <a href="" className="inline-flex items-center justify-center gap-2 text-base capitalize transition-all duration-300 text-brandPrimary hover:translate-x-2 hover:text-neutralDGray">
