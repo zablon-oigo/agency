@@ -10,7 +10,7 @@ function About() {
     <div className='bg-gray-50'>
       <div className="flex flex-col items-center justify-between px-10 py-10 md:flex-row">
         <div className="w-full md:w-1/2">
-          <img src={about} alt="" className="" />
+          <img src={about} alt="" className="" data-aos='zoom-in-up' data-aos-duration='3000' data-easing='linear' />
         </div>
         <div className="w-full md:w-1/2">
           <h2 className="mb-6 text-3xl font-semibold text-center capitalize md:text-start first-letter:capitalize">
