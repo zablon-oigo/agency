@@ -1,9 +1,14 @@
-import React from 'react'
+import {useEffect,React} from 'react'
+import AOS, { init } from 'aos';
+import 'aos/dist/aos.css';
 import image1 from '../image/testimonial/icon1.png'
 import image2 from '../image/testimonial/icon2.png'
 import image3 from '../image/testimonial/icon3.png'
 import { HiArrowLongRight } from "react-icons/hi2";
 function TestimonialCard() {
+  useEffect(()=>{
+    AOS.init();
+  },[])
     const card=[
         {
             id:1,
@@ -25,7 +30,8 @@ function TestimonialCard() {
     <>
     <div className="grid grid-cols-1 gap-3 md:grid-cols-3 place-content-center justify-items-center">
           {card.map((item)=>(
-            <div className="relative" key={item.id}>
+            <div className="relative" key={item.id}
+            data-aos="fade-right" data-aos-duration="3000" data-easing="ease-in-sine">
                 <img src={item.image} alt="" className="object-cover h-64 rounded shadow-2xl w-96" />
                 
                 <div className="absolute w-3/4 px-3 py-6 mx-10 bg-gray-100 rounded-lg shadow-2xl bottom-2 md:-bottom-10 ">
