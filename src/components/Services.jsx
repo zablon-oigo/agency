@@ -1,4 +1,4 @@
-import React from 'react'
+import {useEffect,React} from 'react'
 import Card from '../assets/Layout/Card'
 import img1 from '../assets/image/services/img1.png'
 import img2 from '../assets/image/services/img2.png'
@@ -6,7 +6,12 @@ import img3 from '../assets/image/services/img3.png'
 import img4 from '../assets/image/services/img4.png'
 import img5 from '../assets/image/services/img5.png'
 import img6 from '../assets/image/services/img6.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Services() {
+  useEffect(() => {
+    AOS.init();
+ }, []);
   return (
     <div className='md:px-14 px-4 py-16 max-w-screen-2xl min-h-[480px] mx-auto'>
         <div className="my-8 text-center">
@@ -18,7 +23,7 @@ function Services() {
             </p>
         </div>
         <div className="my-10">
-          <div className="flex items-center justify-between gap-3 ">
+          <div className="flex items-center justify-between gap-3 " data-aos="fade-right" data-aos-duration='3000' data-easing='linear'>
             <div className="-mb-6">
             <img src={img1} alt="" className="w-12 h-12 transition-all duration-300 hover:scale-125" />
             </div>
