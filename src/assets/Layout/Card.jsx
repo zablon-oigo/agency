@@ -1,9 +1,13 @@
-import React from 'react';
+import {useEffect,React} from 'react'
 import icon1 from '../image/icon/icon1.png'
 import icon2 from '../image/icon/icon2.png'
 import icon3 from '../image/icon/icon3.png'
-
+import AOS, { init } from 'aos';
+import 'aos/dist/aos.css';
 function Card() {
+  useEffect(()=>{
+    AOS.init()
+  },[])
   const items = [
     {
       id: 1,
@@ -28,7 +32,8 @@ function Card() {
   return (
     <div className='grid grid-cols-1 gap-4 md:grid-cols-3 '>
       {items.map((item) => (
-        <div className="px-10 py-10 transition-all duration-300 bg-white shadow-2xl group rounded-xl hover:-translate-y-2 hover:border-b-8 hover:border-brandPrimary" key={item.id}>
+        <div className="px-10 py-10 transition-all duration-300 bg-white shadow-2xl group rounded-xl hover:-translate-y-2 hover:border-b-8 hover:border-brandPrimary" key={item.id}
+        data-aos="fade-left"  data-aos-duration="3000" data-easing="ease-in-sine" >
           <div className="">
             <span className="">
               <img src={item.icon} alt="" className='w-12 h-12 mx-auto group-hover:bg-[#A5D6A7] rounded-full ' />
