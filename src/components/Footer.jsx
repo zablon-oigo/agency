@@ -60,9 +60,9 @@ function Footer() {
               <h2 className="mb-6 text-2xl first-letter:capitalize font-semibold  text-[#FFF5EE]">
                 stay up to date
               </h2>
-              <div className="relative">
+              <div className="relative w-full">
                 <input type="text" className=" px-4 py-2 border-none rounded focus:outline-none focus:ring-1 focus:ring-brandPrimary placeholder-[#668869]" placeholder='your email address' />
-                <button type="submit" className="absolute md:right-1   right-8 top-[14%]">
+                <button type="submit" className="absolute md:right-1 right-[80px]  top-[14%]">
                   <img src={send} alt="" className="w-8 h-8" />
                 </button>
               </div>
