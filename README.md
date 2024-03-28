@@ -1,4 +1,8 @@
 # Agency Landing Page
+## Tech Stack
+
+**Client:** React,  TailwindCSS
+
 
 ## screenshot
 
